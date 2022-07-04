@@ -1,0 +1,27 @@
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 10px;
+
+    width: 80vw;
+    padding: 10px;
+}
+
+.info {
+    padding: 10px;
+}
+
+.title {
+    font-size: 20px;
+    color: black;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: 300;
+
+    color: grey;
+
+    padding: 3px;
+
+}
