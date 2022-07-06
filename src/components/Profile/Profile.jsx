@@ -33,7 +33,6 @@ export default function Profile({ username, tag, location, avatar, stats }) {
         </ul>
     </div>)
 }
-Profile.defaultProps = { stats: [] }
 
 Profile.propTypes = {
     avatar: PropTypes.string.isRequired,

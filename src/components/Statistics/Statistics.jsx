@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from './statistics.module.css';
 
-export default function Statistics({ stats }) {
+export default function Statistics({ title, stats }) {
     const listItems = stats.map(({ id, label, percentage }) =>
         <li
             key={id}
@@ -14,7 +14,7 @@ export default function Statistics({ stats }) {
     );
     return (
         <section className={styles.statistics}>
-            <h2 className={styles.title}>Upload stats</h2>
+            {title && <h2 className={styles.title}>{title}</h2>}
 
             <ul className={styles.statList}>
                 {listItems}

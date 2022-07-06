@@ -24,7 +24,7 @@ function TransactionHistory({ items }) {
     );
 }
 
-TransactionHistory.defaultProps = { stats: [] }
+TransactionHistory.defaultProps = { items: [] }
 
 TransactionHistory.propTypes = {
     stats: PropTypes.arrayOf(PropTypes.shape({

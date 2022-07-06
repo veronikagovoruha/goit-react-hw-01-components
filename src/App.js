@@ -31,7 +31,7 @@ export default function App(){
             
 
             <Section title="Statistics" subtitle="Task №2" >
-                <Statistics stats={statisticData} />
+                <Statistics title="Upload stats" stats={statisticData} />
             </Section>
 
             <Section title="Friends List" subtitle="Task №3"  >
